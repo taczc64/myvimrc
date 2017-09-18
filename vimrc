@@ -55,6 +55,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 colorscheme molokai
 autocmd BufWritePre *.go :Fmt
+set hlsearch
 let g:neocomplete#enable_at_startup = 1
 let g:godef_split=3
 
