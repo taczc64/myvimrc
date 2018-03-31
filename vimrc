@@ -50,6 +50,17 @@ Bundle 'Shougo/neocomplete'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
 
+"for js & html css
+Bundle 'rstacruz/vim-ultisnips-css'
+Bundle 'gregsexton/MatchTag'
+Bundle 'othree/html5.vim'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle "pangloss/vim-javascript"
+Bundle 'marijnh/tern_for_vim'
+Bundle 'othree/yajs.vim'
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'docunext/closetag.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
